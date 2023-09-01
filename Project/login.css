@@ -1,0 +1,97 @@
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    /* background: linear-gradient(to right, #000000, #581818, #ff0011); */
+    /* background-image:url(img/img1.png);
+    background-size: cover; */
+    background-color: #2e4057;
+    color: black;
+  }
+  
+  .login-form {
+    width: 250px;
+    padding: 50px;
+    border-radius: 12px;
+    border:2px solid rgba(250, 249, 249, 0.5);
+    display: grid;
+    font-family: sans-serif;  
+    font-style: bold;
+    position: relative;
+    background-color:#f5f5f5 ;
+  }
+  
+  h1 {
+    /* color: white; */
+    letter-spacing: 2px;
+    margin-top: 0;
+    text-align: center;
+  }
+  
+  span{
+    margin:10px 0;
+    display: block;
+    background: crimson;
+    color:#fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding:10px;
+  }
+  
+  input{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 20px auto;
+    padding: 12px 20px;
+    font-size: 16px;
+
+    /* background: rgba(255, 255, 255, 0.1); */
+    border-radius: 12px;
+    /* border-top: 1px solid rgba(255, 255, 255, 0.2); */
+    box-shadow: 0 3px 5px rgba(24, 1, 1, 0.7);
+    color: rgb(0, 0, 0);
+  }
+  
+  input::placeholder {
+    color: rgba(255, 255, 255, 0.5s);
+  }
+  
+  input:focus {
+    background: rgba(21, 1, 1, 0.2);
+  }
+  
+  a {
+    color: #ff7300;
+    font-size: 16px;
+  }
+  
+  .signup:hover {
+    color: #ff7300;
+  }
+  
+  .forgot-signup {
+    display: flex;
+    justify-content: space-between;
+  }
+  .forgot-pwd:hover{
+    color: #ff7300;
+  }
+ 
+  button{
+    /* margin-top: 20px; */
+    height: 50px;
+    font-size: 20px;
+    background-color: #000000;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s;
+    width: 250px;
+}
+  button:hover {
+    background: #114357;
+  }
+
+  
