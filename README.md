@@ -67,7 +67,7 @@ The system architecture consists of a centralized database accessed by the Admin
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/legacy-sports.git
+   git clone https://github.com/GZ-Starter/legacy-sports.git
    ```
 2. Navigate to the project directory:
    ```bash
